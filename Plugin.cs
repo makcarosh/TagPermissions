@@ -22,13 +22,13 @@ namespace TagPerm
         protected override void Load()
         {
             U.Events.OnPlayerConnected += OnPlayerConnected;
-            Logger.Log("[TagPerm] Plugin loaded");
+            Logger.Log("TagPermissions is load!\nDeveloper discord: makcarosh");
         }
 
         protected override void Unload()
         {
             U.Events.OnPlayerConnected -= OnPlayerConnected;
-            Logger.Log("[TagPerm] Plugin unloaded");
+            Logger.Log("TagPermissions is unload!\nDeveloper discord: makcarosh");
         }
 
         private void OnPlayerConnected(UnturnedPlayer player)
